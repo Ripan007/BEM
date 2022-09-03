@@ -1,7 +1,12 @@
 # *Block Element Modifier*
+ *BEM stands for Block Element Modifier. The main idea behind it is to speed up the development process, and ease the teamwork of developers by arranging CSS classes into independent modules*
+ *The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex, its goal is to help developers better understand the relationship between the HTML and CSS in a given project*
+ [--(hypen) => modifier
+ __(underscore) => element]
+ { specific }
 ## Tech Stack
 
-**Client:** HTML, CSS , scss, bem
+**Client:** HTML, CSS , SCSS, BEM
 <!-- javaScript,React, Redux, TailwindCSS -->
 <!-- 
 **Server:** Node, Express -->
