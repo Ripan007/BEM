@@ -1,7 +1,7 @@
 # *Block Element Modifier*
 ## Tech Stack
 
-**Client:** HTML, CSS
+**Client:** HTML, CSS , scss, bem
 <!-- javaScript,React, Redux, TailwindCSS -->
 <!-- 
 **Server:** Node, Express -->
