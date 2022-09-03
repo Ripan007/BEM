@@ -1,0 +1,65 @@
+body,
+html {
+    margin: 0;
+    height: 100vh;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background: rgba(255, 192, 203, 0.566);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+}
+
+.card {
+    max-width: 400px;
+    padding: 0 5em;
+
+    &__img {
+        display: block;
+        height: 100px;
+        width: 100%;
+        background-color: rgb(183, 21, 132);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__content {
+        padding: 1.5em;
+        background: rgba(255, 255, 255, 0.781);
+    }
+    &__list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+    }
+    &__item {
+        padding: 0.3em 0.5em;
+        margin-right: 0.5em;
+        border-radius: 0.3em;
+        background-color: rgba(128, 128, 128, 0.091);
+
+        &--active {
+            background-color: rgba(128, 128, 128, 0.728);
+            font-weight: bold;
+            color: white;
+        }
+    }
+
+    &__link {
+        background-color: rgba(0, 128, 0, 0.731);
+        text-decoration: none;
+        color: white;
+        padding: 0.5em 1em;
+        border-radius: 0.5em;
+        display: inline-block;
+        margin-top: 0.5em;
+        &:hover {
+            background-color: green;
+        }
+    }
+}
